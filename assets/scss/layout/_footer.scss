@@ -89,6 +89,39 @@
 	
 }
 @media (max-width:576px) {
+  
+  
+  .nav_phome_email{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+  .footer_nav{
+		width: 28%;
+	}
+	
+	.phome_email{
+		padding-top: 0;
+		width: 72%;
+
+    p{
+      font-size: 16px;
+      
+    }
+    svg{
+      width: 16px;
+      height: 16px;
+      margin-right: 5px;
+      
+    }
+
+
+
+  }
+  
+  
+  
+  
   .txt_ul{
 		display: none;
 	}
@@ -117,39 +150,30 @@
 	}
 }
 @media (max-width:375px) {
+  .footer{
+		padding-top: 24px;
+	}
+  
+  
   .nav_phome_email{
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: space-between;
 	}
-	.footer{
-		padding-top: 24px;
-	}
+	
 	.footer_nav{
 		width: 28%;
 	}
-	.icon_ul{
+	
+	
+
+	
+  .icon_ul{
     img{
       width: 24px;
       height: 24px;
     }
   } 
-	.phome_email{
-		padding-top: 0;
-		width: 72%;
-
-    p{
-      font-size: 16px;
-      
-    }
-    svg{
-      width: 16px;
-      height: 16px;
-      margin-right: 5px;
-      
-    }
-
-	}
 	 .copyright{
       ul{
         flex-direction: column;
