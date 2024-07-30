@@ -28,13 +28,13 @@ $font-size-1:14px;
     padding:$top-bottom $left-right ;
 }
 @mixin margin-4($top, $right, $bottom, $left) {
-    padding-right:$top $right $bottom $left ;
+    margin:$top $right $bottom $left ;
 }
 @mixin margin-2($top-bottom,$left-right) {
-    padding:$top-bottom $left-right ;
+    margin:$top-bottom $left-right ;
 }
 @mixin margin($p) {
-    padding:$p ;
+    margin:$p ;
 }
 @mixin padding($p) {
     padding:$p ;
