@@ -1,5 +1,10 @@
 
 .qa{
+    .column{
+        width: 66%;
+    }
+}
+.qa{
     .qa_title {
         font-size: $font-size-6;
         @include page-h2;
@@ -18,8 +23,19 @@
         }
     }
 }
+@media (max-width:768px) {
+    .qa{
+        .column{
+            width: 100%;
+        }
+    }
+
+}
 @media (max-width:576px) {
     .qa{
+        .column{
+            width: 100%;
+        }
         .qa_title {
             font-size: $font-size-3;
             
