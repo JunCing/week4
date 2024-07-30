@@ -11,7 +11,13 @@ $font-size-5:36px;
 $font-size-4:32px;
 $font-size-3:24px;
 $font-size-2:20px;
-$font-size-1:14px;    
+$font-size-1:14px; 
+
+
+@mixin page-h2{
+    color: $fourth-color;
+    border-left: 8px solid #9F1213;
+}
 
 
 

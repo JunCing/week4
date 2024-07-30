@@ -1,5 +1,8 @@
 
 .qa{
+    h2{
+        @include page-h2;
+    }
     h3{
        font-size: $font-size-2; 
     }
