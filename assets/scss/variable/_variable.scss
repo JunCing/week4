@@ -22,7 +22,7 @@ $font-size-1:14px;
 
 
 @mixin padding-4($top, $right, $bottom, $left) {
-    padding-right:$top $right $bottom $left ;
+    padding:$top $right $bottom $left ;
 }
 @mixin padding-2($top-bottom,$left-right) {
     padding:$top-bottom $left-right ;

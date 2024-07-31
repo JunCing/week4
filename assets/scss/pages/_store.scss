@@ -1,0 +1,87 @@
+
+
+
+
+.stronghold_title{
+    padding-left: 16px;
+    @include page-h2;
+    font-size: $font-size-6;
+}
+.selectbox{
+    
+    @include margin-4(32px,0,46px,0);
+    .label{
+        margin-right: 16px;
+        font-size: $font-size-3;
+    }
+}
+.select{
+    width: 400px;
+    height: 38px;
+    border: 1px solid #CED4DA;
+}
+
+.stronghold_list{
+    flex-wrap: wrap;
+    .column{
+        width: 33.33333%;
+        margin-bottom: 40px;
+    }
+}
+.card_title{
+    font-size: $font-size-3;
+}
+.card_title,.card ul{
+    border: 1px solid #00000020;
+    @include padding-2(12px, 26px);
+}
+.card ul li{
+    @include margin-2(4px,0);
+}
+.card_button {
+    a{
+        @include padding-2(16px,0);
+        background-color: $fourth-color;
+        color: $secondary-color;
+    }
+    a:hover{
+        background-color: darken($primary-color,10%);
+    }
+}
+    
+.card svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+@media(max-width:768px){
+    .select{
+        width: 70%;
+        
+    }
+    .stronghold_list {
+        .column{
+            width: 50%;
+            margin-bottom: 0;
+            @include padding-2(12px,12px);
+            
+        }
+    }
+    .card ul{
+        li{
+            font-size: 16px;
+            
+        }
+    } 
+    
+    
+}
+@media(max-width:576px){
+    
+    .selectbox {
+        .label{
+            font-size: 16px;
+        }
+}
+    
+}
